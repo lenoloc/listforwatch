@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="listforwatch" name="List For Watch" version="0.0.1" provider-name="Lenoloc">
+	<extension point="xbmc.addon.repository" name="List For Watch">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/lenoloc/listforwatch/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/lenoloc/listforwatch/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/lenoloc/listforwatch/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">List For Watch Repository</summary>
+		<description lang="en">List For Watch Repository</description>
+		<genre>livetv,french</genre>
+	</extension>
+</addon>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="listforwatch" name="List For Watch" version="0.0.1" provider-name="Lenoloc">
+	<extension point="xbmc.addon.repository" name="List For Watch">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/lenoloc/listforwatch/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/lenoloc/listforwatch/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/lenoloc/listforwatch/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">List For Watch Repository</summary>
+		<description lang="en">List For Watch Repository</description>
+		<genre>livetv,french</genre>
+	</extension>
+</addon>
+
+<addon id="plugin.video.listforwatch" name="List For Watch" version="0.0.1" provider-name="Lenoloc">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Liste de chaines FR</summary>
+		<description lang="en">Liste de chaines FR</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>livetv,french</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+</addons>
